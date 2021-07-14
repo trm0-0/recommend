@@ -1,0 +1,56 @@
+body{
+  color:#333;
+  font-family: "游ゴシック",sans-serif;
+  margin: 0;
+  background-color: burlywood;
+
+}
+
+header{
+  background-color: bisque;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.member{
+  background-color: cornsilk;
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.member>section{
+  background-color:white;
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+margin-bottom: 20px;
+display: flex;
+text-align: left;
+border-width: 5px;
+border-style: solid;
+border-color: rgb(211, 61, 35);
+}
+
+.icon{
+  align-items: center;
+}
+
+.setsumei{
+  padding-left: 20px;
+}
+
+footer{
+  text-align: center;
+  font: size 14px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  
+}
