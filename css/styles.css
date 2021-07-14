@@ -17,10 +17,8 @@ header {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
   margin-top: 30px;
-  padding-top: 30px;
+  padding: 30px 4% 0;
   text-align: center;
 }
 
