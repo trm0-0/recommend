@@ -1,21 +1,20 @@
-body{
-  color:#333;
-  font-family: "游ゴシック",sans-serif;
+body {
+  color: #333;
+  font-family: "游ゴシック", sans-serif;
   margin: 0;
   background-color: burlywood;
-
 }
 
-header{
+header {
   background-color: bisque;
   text-align: center;
   margin-top: 30px;
-
+  padding: 20px;
 }
 
-.member{
+.member {
   background-color: cornsilk;
-  width:800px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;
@@ -25,32 +24,56 @@ header{
   text-align: center;
 }
 
-.member>section{
-  background-color:white;
-padding-top: 30px;
-padding-left: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-margin-bottom: 20px;
-display: flex;
-text-align: left;
-border-width: 5px;
-border-style: solid;
-border-color: rgb(211, 61, 35);
+.member>section {
+  background-color: white;
+  padding: 30px 4%;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: left;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(211, 61, 35);
 }
 
-.icon{
+.icon {
+  width: 30%;
   align-items: center;
 }
 
-.setsumei{
-  padding-left: 20px;
+.icon img {
+  width: 100%;
+  object-fit: contain;
 }
 
-footer{
+.setsumei {
+  margin-top: 20px;
+  margin-left: 4%;
+}
+
+.text{
+  padding: 40px 0;
+}
+
+footer {
   text-align: center;
   font: size 14px;
   margin-top: 30px;
   margin-bottom: 60px;
-  
+}
+
+@media screen and (max-width:600px) {
+  .member>p{
+    margin-bottom: 30px;
+  }
+  .member>section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .icon {
+    width: 100%;
+  }
+
+  .setsumei{
+    margin-left: 0;
+  }
 }
